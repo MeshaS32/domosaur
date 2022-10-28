@@ -1,7 +1,7 @@
 let spanMess = document.querySelector('.mess-with-me');
 spanMess.style.fontSize = "40px"
 
-//tag.className grabs the first instance of that taf with that className
+//tag.className grabs the first instance of that tag with that className
 let paraMess = document.querySelector('p.mess-with-me')
 
 paraMess.style.background = "green"
@@ -25,15 +25,11 @@ firstDino.addEventListener('click', function(){
     firstDino.style.opacity = ".50"
 })
 
-// Add an event listener to the "Switch Background Color" button so that when it is clicked, we switch the background color of the row of dinosaurs to a color of your choice.
 
 let row = document.querySelector('#row')
 let colorChangeButton = document.querySelector("#toggle")
 
 
-
-
-// Add an event listener to the dinosaur with the id biggify that, when HOVERED, grows the image to 200 pixels wide. Note that this is a different event, and you'll likely need to do some research on what different string you'll need to pass. It's not gonna be click!
 
 let dinoHov = document.querySelector('#biggify')
 
